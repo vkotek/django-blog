@@ -3,6 +3,11 @@
 	<title>Blog de Vojta</title>
     </head>
 <body>
-<p>Will it work doe?</p>
+{% for post in posts %}
+    <div>
+	<h3>{{ post.title }}</h3>
+	<p>{{ post.text }}</p>
+    </div>
+{% endfor %}
 </body>
 </html>
