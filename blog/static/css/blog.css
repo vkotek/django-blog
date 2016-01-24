@@ -1,0 +1,21 @@
+/* Set font styles */
+h1,h2,h3,h4 {
+    font-family: 'Indie Flower';
+    display: inline-block;
+}
+.post .title {
+    color: #FF6EB1;
+}
+
+/* Layout */
+div.page-header {
+    background-color: #FF6EB1;
+    color: #FFFFFF;
+    height: 90px;
+    margin-top: 0;
+    padding: 10px 10px 10px 40px;
+}
+div.content {
+    padding: 0px 40px;
+    float: left;
+}
